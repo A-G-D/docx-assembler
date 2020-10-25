@@ -1,0 +1,6 @@
+wheel
+lxml
+python-docx
+docx2pdf
+docxcompose
+
