@@ -1,9 +1,9 @@
-## DOCX-Assembler
-# (docx-assembler)
+# DOCX-Assembler
+#### (docx-assembler)
 
 Python package for combining sparse DOCX documents into a single DOCX file
 
 
-# - Installation
+#### - Installation
 
-pip install docx-assembler
+> pip install docx-assembler
