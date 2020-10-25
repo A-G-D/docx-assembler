@@ -4,6 +4,6 @@
 Python package for combining sparse DOCX documents into a single DOCX file
 
 
-#### - Installation
+#### - Installation (NYI)
 
 > pip install docx-assembler
