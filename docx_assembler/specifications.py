@@ -50,8 +50,8 @@ class Specifications:
                 pair = line.split('=', 1)
                 self.__dict[pair[0].split()[0]] = pair[1].split()[0]
 
-            self.source_dir         = path.abspath(self.__dict['SOURCE_DIR']) if 'SOURCE_DIR' in self.__dict else ""
-            self.target_dir         = path.abspath(self.__dict['TARGET_DIR']) if 'TARGET_DIR' in self.__dict else ""
+            self.source_dir         = path.abspath(self['SOURCE_DIR'])
+            self.target_dir         = path.abspath(self['TARGET_DIR'])
             self.doc_file_path      = path.join(self.target_dir, self['DOC_FILE_NAME'])
             self.pdf_file_path      = path.join(self.target_dir, self['PDF_FILE_NAME'])
             self.doc_file_name      = self['DOC_FILE_NAME']

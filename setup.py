@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="docx-assembler_a-g-d",
-    version="0.1.0",
+    version="0.1.1",
     author="AGD / A-G-D",
     author_email="agd.91939@protonmail.com",
     description="A utility tool for assembling sparse .docx documents",
