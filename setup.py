@@ -1,8 +1,8 @@
 import setuptools
 
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+with open("README.md", "r") as f:
+    long_description = f.read()
 
 setuptools.setup(
     name="docx-assembler_a-g-d",
@@ -18,6 +18,13 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        'wheel',
+        'lxml',
+        'python-docx',
+        'docx2pdf',
+        'docxcompose'
     ],
     python_requires='>=3.0',
 )
